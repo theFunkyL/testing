@@ -26,8 +26,12 @@
 body{
 	background-color: salmon;
 }
-h1{
+#title{
 	width: 300px;
-	animation-name: tada;
-	animation-duration: 1s;
+	animation: lightSpeedIn 1s;
+}
+#subtitle{
+	width: 300px;
+	animation: hinge 1s;
+	animation-delay: .5s;
 }
